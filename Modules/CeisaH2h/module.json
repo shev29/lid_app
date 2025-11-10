@@ -1,0 +1,11 @@
+{
+    "name": "CeisaH2h",
+    "alias": "ceisah2h",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CeisaH2h\\Providers\\CeisaH2hServiceProvider"
+    ],
+    "files": []
+}

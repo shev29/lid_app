@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/documentapproval",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\DocumentApproval\\": "app/",
+            "Modules\\DocumentApproval\\Database\\Factories\\": "database/factories/",
+            "Modules\\DocumentApproval\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\DocumentApproval\\Tests\\": "tests/"
+        }
+    }
+}

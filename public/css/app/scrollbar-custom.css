@@ -1,0 +1,147 @@
+/* .custom-scrollbar {
+    width: 12px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    border-radius: 6px;
+}
+
+.custom-scrollbar-thumb {
+    width: 100%;
+    background-color: #b6b6b6;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+} */
+
+/* .custom-scrollbar:hover {
+    cursor: default !important;
+} */
+
+/* .custom-scrollbar-thumb:hover,
+.custom-scrollbar-thumb-dragging {
+    background-color: #888;
+    cursor: default !important;
+} */
+
+@media only screen and (max-width: 768px) {
+    .custom-scrollbar-vertical, .custom-scrollbar-thumb-vertical, .custom-scrollbar-horizontal, .custom-scrollbar-thumb-horizontal {
+        display: none;
+    }
+}
+
+/* Vertical Scrollbar Styles */
+.custom-scrollbar-vertical {
+    position: absolute;
+    width: 12px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+    cursor: default;
+}
+
+.custom-scrollbar-thumb-vertical {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.3s ease;
+    min-height: 30px;
+    cursor: default;
+    pointer-events: auto;
+}
+
+.custom-scrollbar-thumb-vertical.custom-scrollbar-thumb-dragging, .custom-scrollbar-thumb-horizontal.custom-scrollbar-thumb-dragging {
+    user-select: none; /* Standard syntax */
+    -webkit-user-select: none; /* Safari/Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    pointer-events: none; /* Optional: prevents mouse events on text */
+}
+
+.custom-scrollbar-thumb-vertical:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Horizontal Scrollbar Styles */
+.custom-scrollbar-horizontal {
+    position: absolute;
+    height: 12px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    transition: opacity 0.3s ease;
+    z-index: 999;
+    cursor: default;
+}
+
+.custom-scrollbar-thumb-horizontal {
+    position: absolute;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, opacity 0.3s ease;
+    min-width: 30px;
+    pointer-events: auto;
+    cursor: default;
+}
+
+.custom-scrollbar-thumb-horizontal:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Scrollbar Track Hover Effects */
+.custom-scrollbar-thumb-dragging {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.custom-scrollbar-vertical:hover {
+    background: rgba(0, 0, 0, 0.15) !important;
+}
+
+.custom-scrollbar-horizontal:hover {
+    background: rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Alternative styling - untuk tema yang lebih modern */
+.custom-scrollbar-modern.custom-scrollbar-vertical {
+    width: 8px;
+    background: transparent;
+}
+
+.custom-scrollbar-modern.custom-scrollbar-horizontal {
+    height: 8px;
+    background: transparent;
+}
+
+.custom-scrollbar-modern .custom-scrollbar-thumb-vertical,
+.custom-scrollbar-modern .custom-scrollbar-thumb-horizontal {
+    background: rgba(120, 120, 120, 0.6);
+    border-radius: 4px;
+}
+
+.custom-scrollbar-modern .custom-scrollbar-thumb-vertical:hover,
+.custom-scrollbar-modern .custom-scrollbar-thumb-horizontal:hover {
+    background: rgba(120, 120, 120, 0.8);
+}
+
+/* Dark theme scrollbar */
+.custom-scrollbar-dark.custom-scrollbar-vertical,
+.custom-scrollbar-dark.custom-scrollbar-horizontal {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.custom-scrollbar-dark .custom-scrollbar-thumb-vertical,
+.custom-scrollbar-dark .custom-scrollbar-thumb-horizontal {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.custom-scrollbar-dark .custom-scrollbar-thumb-vertical:hover,
+.custom-scrollbar-dark .custom-scrollbar-thumb-horizontal:hover {
+    background: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,537 @@
+@font-face {
+    font-family: InterVariable;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/Inter/InterVariable.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: InterVariable;
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/Inter/InterVariable-Italic.woff2') format('woff2');
+}
+
+/* legacy name "Inter var" (Oct 2023) */
+@font-face {
+    font-family: 'Inter var';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/Inter/InterVariable.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Inter var';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('fonts/Inter/InterVariable-Italic.woff2') format('woff2');
+}
+
+/* static fonts */
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("fonts/Inter/Inter-BlackItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: InterDisplay;
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("fonts/Inter/InterDisplay-BlackItalic.woff2") format("woff2");
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Firefox */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: light;
+    }
+}
+
+/* Chrome */
+@media (forced-colors: active) {
+    :root {
+        color-scheme: light;
+    }
+}
+
+:root {
+	font-family: "Inter", Arial, Helvetica, sans-serif !important;
+	font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+    --blue: #1e90ff;
+    --blueLogisteed: #115fad;
+    --white: #ffffff;
+    --brokenWhite: #f0f2f5;
+    --black: #1f1f1f;
+}
+@supports (font-variation-settings: normal) {
+	:root { font-family: "InterVariable", sans-serif; font-optical-sizing: auto; }
+}
+
+* {
+	font-family: "Inter", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-shadow: none !important;
+    /* color: #1f1f1f; */
+    font-size: 13px;
+}
+
+body{
+    background-color: var(--brokenWhite);
+    display: flex;
+    justify-content: center; /* Mengatur ke tengah horizontal */
+    align-items: center; /* Mengatur ke tengah vertikal */
+    height: 100vh; /* Menggunakan tinggi viewport untuk memastikan vertikal terpusat */
+    margin: 0;
+}
+
+.form-control, .btn{
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.form-control:focus, .form-check-input:focus {
+    color: rgba(31,31,31, 1) !important;
+    background-color: var(--cui-body-bg);
+    border-color: #115fad !important;
+    outline: 0;
+    box-shadow: 0 0 0.1rem 0.04rem rgba(17, 95, 173, 0.35) !important;
+}
+
+.container{
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-o-justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-o-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+}
+
+.login_container{
+    margin: 0 5px !important;
+    padding: 10px;
+    width: 405px;
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    box-shadow: 0 0 10px rgba(104,104,104,.4);
+    -webkit-box-shadow: 0 0 10px rgba(104,104,104,.4);
+    -moz-box-shadow: 0 0 10px rgba(104,104,104,.4);
+    -ms-box-shadow: 0 0 10px rgba(104,104,104,.4);
+    overflow: hidden!important
+}
+
+.login_section{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.login_section a{
+    text-decoration: none !important;
+    font-size: 12px;
+    text-align: right;
+}
+
+.login_section a:hover{
+    text-decoration: underline !important;
+}
+
+#login_company{
+    text-align: center;
+    margin: 10px auto 40px auto;
+}
+
+#login_company img{
+	display: block;
+  	margin: 10px auto;
+	width: 200px !important;
+}
+
+#login_company span{
+    display: block;
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#loginButton{
+    background-color: var(--blueLogisteed);
+    /* height: 47px; */
+    height: calc(3rem + calc(var(--bs-border-width) * 2)) !important;
+    /* font-size: 16px !important; */
+    font-weight: 600 !important;
+    width: 100%;
+}
+
+.btn-form {
+    height: 35px !important;
+    font-size: 14px !important;
+    width: 100%;
+}
+
+.btn-default {
+    color: #565f6a;
+    background: #fff;
+    border: 1px solid #6b7785 !important;
+}
+
+.btn-default:hover {
+    color: #565f6a;
+    background: #d9d9d9;
+    border-color: #565f6a;
+}
+
+.dropdown-item {
+	display: block !important;
+	width: 100% !important;
+	padding: 0.25rem 0.5rem 0.5rem 0 !important;
+	clear: both !important;
+	font-weight: 400 !important;
+	color: rgba(31,31,31, 1) !important;
+	text-align: inherit !important;
+	text-decoration: none !important;
+	white-space: nowrap !important;
+	background-color: transparent !important;
+	border: 0 !important;
+	border-radius: var(--cui-dropdown-item-border-radius, 0);
+	cursor: pointer !important;
+	margin-bottom: .2rem !important;
+}
+
+.form-check-input {
+	--cui-form-check-bg: var(--cui-body-bg);
+	flex-shrink: 0;
+	width: 1.5em !important;
+	height: 1.5em !important;
+	/* margin-top: 0.25em; */
+	vertical-align: middle !important;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none;
+	background-color: var(--cui-form-check-bg);
+	background-image: var(--cui-form-check-bg-image);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain !important;
+	border: var(--cui-border-width) solid var(--cui-border-color);
+	-webkit-print-color-adjust: exact;
+	color-adjust: exact;
+	print-color-adjust: exact;
+	cursor: pointer !important;
+}
+
+.form-check-input:checked {
+	background-color: #115fad !important;
+	border-color: #115fad !important;
+}
+
+.showPassword {
+    margin: 1px 1px 1px 0 !important;
+    border: none !important;
+    border-radius: 0 0.375rem 0.375rem 0 !important;
+    color: #1f1f1f !important;
+    font-size: 0.9rem !important;
+}
+
+.showPassword:hover {
+    border: none !important;
+    margin: 1px 1px 1px 0 !important;
+    border-radius: 0 0.375rem 0.375rem 0 !important;
+    color: #1f1f1f !important;
+}

@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/ceisah2h",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CeisaH2h\\": "app/",
+            "Modules\\CeisaH2h\\Database\\Factories\\": "database/factories/",
+            "Modules\\CeisaH2h\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\CeisaH2h\\Tests\\": "tests/"
+        }
+    }
+}
